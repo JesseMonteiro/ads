@@ -1,0 +1,2 @@
+INSERT INTO ADVERTISING (name, client, start_date, end_date, INVESTMENT_PER_DAY) VALUES('Dia dos Namorados', 'Bombons Love', CURRENT_DATE(), CURRENT_DATE() + 5, 100);
+INSERT INTO ADVERTISING (name, client, start_date, end_date, INVESTMENT_PER_DAY) VALUES('Dia das mães', 'Marisa', CURRENT_DATE(), CURRENT_DATE() + 6, 120);
