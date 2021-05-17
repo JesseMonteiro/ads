@@ -64,7 +64,7 @@ public class AdvertisingController {
      * @param days number of days filter
      * @return total amount investered
      */
-    @GetMapping({"/investered/{id}","/investered/{id}/{days}"})
+    @GetMapping({"/invested/{id}","/invested/{id}/{days}"})
     public double totalInvested(@PathVariable Long id, @PathVariable(required = false) Integer days) {
         Optional<Advertising> advertising = advertisingRepository.findById(id);
         if(days == null){
